@@ -40,8 +40,8 @@ type BotClient
   func MoveBackward() (x, y int)
   func FireGun() bool
   func FireCannon() bool
-  func RotateLeft() (rotation int)
-  func RotateRight() (rotation int)
+  func RotLeft() (rotation int)
+  func RotRight() (rotation int)
   func Scan() ([]*Status)
   func Status() (*Status)
   func Shield() bool
@@ -51,7 +51,7 @@ type BotClient
 
 - Moves forward in the direction that you are facing
 - has a delay of 500 milleseconds
-  
+
 
 ####func MoveBackward() (x, y int)
 
